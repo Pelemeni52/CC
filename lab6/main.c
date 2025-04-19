@@ -4,15 +4,6 @@
 int main()
 {
     FILE *fp1, *fp2;
-    /*
-    fp1 = fopen("input.txt", "w");
-    char s[10] = "abcdefghij";
-    char s2[10] = "0123456789";
-    
-    for(int i = 0; i<20; i++){
-        fprintf(fp1, "%c%c %c%c %c%c 19%c%c\n", s[rand()%10],s[rand()%10],s[rand()%10],s[rand()%10],s[rand()%10],s[rand()%10],s2[rand()%10],s2[rand()%10]);
-    }
-    */
     
     fp1 = fopen("input.txt", "r");
     fp2 = fopen("output.txt", "w");
