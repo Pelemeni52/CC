@@ -4,11 +4,11 @@
 int main() {
     char str[80];
     for (int i = 0; i<80; i++){
-        str[i]=26;
+        str[i]=0;
     }
     gets(str);
     int i = 0;
-    while (i<80 && str[i+1]!=26){
+    while (i<80 && str[i+1]!=0){
         if (str[i] == 'a'){
             printf("A");
         }else if (str[i] == 'b'){
