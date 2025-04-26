@@ -3,17 +3,14 @@
 
 int main() {
     double x1, x2;
-    
     int N;
-    
-    printf("Введите N:");
-    scanf("%d", &N);
+    N = 3;
     
     double arr[N][N];
     
     for (int i = 0; i<N; i++){
         for (int j = 0; j<N; j++){
-            printf("Введите A[%d][%d]:", i, j);
+            printf("Vvedite A[%d][%d]:", i, j);
             scanf("%lf", &arr[i][j]);
         }
     }
@@ -37,7 +34,7 @@ int main() {
     
     for (int i = 0; i<2; i++){
         for (int j = 0; j<2; j++){
-            printf("Введите B[%d][%d]:", i, j);
+            printf("Vvedite B[%d][%d]:", i, j);
             scanf("%d", &arr2[i][j]);
         }
     }
